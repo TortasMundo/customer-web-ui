@@ -1,10 +1,11 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='content'>
+        <img src='logo.jpg' className='logo'/>
         <button>Ordenar por WhatsApp</button>
       </div>
     );
