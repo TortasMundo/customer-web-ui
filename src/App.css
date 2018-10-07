@@ -1,6 +1,7 @@
 button {
     padding: 0.5em;
     font-size: 2em;
+    border-radius: 25px;
 }
 
 .logo {
@@ -10,4 +11,5 @@ button {
     margin-right: auto;
     margin-bottom: 2em;
     display: block;
+    border-radius: 25px;
 }
