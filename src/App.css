@@ -1,4 +1,4 @@
-button {
+.button {
     padding: 0.5em;
     font-size: 2em;
     background-color: #c6102a;
@@ -9,11 +9,11 @@ button {
     cursor:pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #a0102a;
 }
 
-button:active {
+.button:active {
     background-color: #82102a;
 }
 
