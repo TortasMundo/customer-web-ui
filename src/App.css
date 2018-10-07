@@ -6,6 +6,15 @@ button {
     border-color: white;
     border-width: 5px;
     border-radius: 25px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #a0102a;
+}
+
+button:active {
+    background-color: #82102a;
 }
 
 .logo {
