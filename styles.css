@@ -36,6 +36,22 @@ body {
   cursor:pointer;
 }
 
+.phone {
+  margin-top: 1em;
+  padding-left: 0.5em;
+  font-size: 3.2em;
+  color: #a0102a;
+  border-color: #a0102a;
+  border-width: 5px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .button:hover {
   background-color: #a0102a;
 }
