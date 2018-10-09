@@ -4,7 +4,7 @@ body {
   background-size: cover;
 }
 
-#root {
+.content {
   width: 100%;
   height: 100%;
   display: flex;
@@ -24,21 +24,22 @@ body {
 .button {
   padding: 0.5em;
   font-size: 2em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 15em;
+  margin-right: 15em;
   background-color: #c6102a;
   color: white;
   border: 5px solid white;
   border-radius: 25px;
   cursor:pointer;
+  text-align: center
 }
 
 .phone {
   margin-top: 0.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
+  margin-left: 9em;
+  margin-right: 9em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-size: 3.2em;
   color: #a0102a;
   border: 5px solid #a0102a;
@@ -50,6 +51,8 @@ body {
 
 a {
   text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
 .button:hover {
