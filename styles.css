@@ -24,8 +24,6 @@ body {
 .button {
   padding: 0.5em;
   font-size: 2em;
-  margin-left: 7em;
-  margin-right: 7em;
   background-color: #c6102a;
   color: white;
   border: 5px solid white;
@@ -36,8 +34,6 @@ body {
 
 .phone {
   margin-top: 0.5em;
-  margin-left: 7em;
-  margin-right: 7em;
   padding-left: 1em;
   padding-right: 1em;
   font-size: 3.2em;
