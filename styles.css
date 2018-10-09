@@ -5,20 +5,31 @@ body {
 
 #root {
   width: 100%;
-  height: 400px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.logo {
+  width: 30em;
+  height: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 5em;
+  display: block;
+  border-radius: 50px;
+}
+
 .button {
   padding: 0.5em;
-  font-size: 2em;
+  font-size: 6em;
   background-color: #c6102a;
   color: white;
   border-color: white;
   border-width: 5px;
-  border-radius: 25px;
+  border-radius: 50px;
   cursor:pointer;
 }
 
@@ -28,14 +39,4 @@ body {
 
 .button:active {
   background-color: #82102a;
-}
-
-.logo {
-  width: 15em;
-  height: 15em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  display: block;
-  border-radius: 25px;
 }
