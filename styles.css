@@ -22,14 +22,15 @@ body {
 }
 
 .button {
-  padding: 0.5em;
-  font-size: 2em;
+  padding: 0.1em;
+  font-size: 2.5em;
   background-color: #c6102a;
   color: white;
   border: 5px solid white;
   border-radius: 25px;
   cursor:pointer;
-  text-align: center
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .phone {
@@ -57,4 +58,15 @@ a {
 
 .button:active {
   background-color: #82102a;
+}
+
+@media only screen and (min-width: 1200px) {
+  .button {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .phone {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }
