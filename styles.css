@@ -1,8 +1,6 @@
 body {
-  background-image: url("background.jpg");
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("background.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -17,13 +15,8 @@ body {
 .logo {
   width: 15em;
   height: 15em;
-  border-color: #a0102a;
-  border-width: 5px;
-  border-style: solid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  border: 5px solid #a0102a;
+  margin: 2em auto;
   display: block;
   border-radius: 25px;
 }
@@ -35,8 +28,7 @@ body {
   margin-right: 0.5em;
   background-color: #c6102a;
   color: white;
-  border-color: white;
-  border-width: 5px;
+  border: 5px solid white;
   border-radius: 25px;
   cursor:pointer;
 }
@@ -47,9 +39,7 @@ body {
   margin-right: 0.5em;
   font-size: 3.2em;
   color: #a0102a;
-  border-color: #a0102a;
-  border-width: 5px;
-  border-style: solid;
+  border: 5px solid #a0102a;
   background-color: white;
   font-weight: bold;
   border-radius: 25px;
